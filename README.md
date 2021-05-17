@@ -6,11 +6,12 @@ gimpisep-les-gens-sympas created by GitHub Classroom
 - [OpenCV : 4.5.2](https://opencv.org/releases/)
 - [CMake : 2.20.2](https://cmake.org/download/)
 
-##Variables d'environement
-###path
+## Variables d'environement
+### path
 - C:\chemin_vers_mon_openCV\opencv\build\x64\vc15\bin
 - C:\chemin_vers_mon_openCV\opencv\build\x64\vc15\lib
-###nouvelle variable : OpenCV_DIR
+- 
+### Nouvelle variable : OpenCV_DIR
 - C:\chemin_vers_mon_openCV\opencv\build
 
 ## Modules VS Code
