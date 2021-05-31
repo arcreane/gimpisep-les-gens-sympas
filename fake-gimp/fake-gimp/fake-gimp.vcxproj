@@ -142,10 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="brightness.cpp" />
     <ClCompile Include="fake-gimp.cpp" />
+    <ClCompile Include="dilate_erose.cpp" />
+    <ClCompile Include="resize.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="HappyFish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
