@@ -78,6 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\khans_000\Dropbox\Mon PC (Asus-Khan)\Desktop\OpenCv\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\khans_000\Dropbox\Mon PC (Asus-Khan)\Desktop\OpenCv\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -122,7 +124,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world452d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -143,6 +145,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="brightness.cpp" />
+    <ClCompile Include="CannyThreshold.cpp" />
     <ClCompile Include="fake-gimp.cpp" />
     <ClCompile Include="dilate_erose.cpp" />
     <ClCompile Include="resize.cpp" />
