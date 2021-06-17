@@ -1,0 +1,4 @@
+"/Users/isma/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-1/211.7142.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/Users/isma/Qt/6.2.0/clang_64/lib/cmake -G "CodeBlocks - Unix Makefiles" /Users/isma/CLionProjects/GimpLikeGUI
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/isma/CLionProjects/GimpLikeGUI/cmake-build-debug

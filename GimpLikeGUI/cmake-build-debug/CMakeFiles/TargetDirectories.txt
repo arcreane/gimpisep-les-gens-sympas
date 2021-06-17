@@ -1,0 +1,4 @@
+/Users/isma/CLionProjects/GimpLikeGUI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/isma/CLionProjects/GimpLikeGUI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isma/CLionProjects/GimpLikeGUI/cmake-build-debug/CMakeFiles/GimpLikeGUI.dir
+/Users/isma/CLionProjects/GimpLikeGUI/cmake-build-debug/CMakeFiles/GimpLikeGUI_autogen.dir
