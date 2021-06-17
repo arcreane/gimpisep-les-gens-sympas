@@ -18,10 +18,8 @@ void LGS::Stitching()
 		cout << "Can't stitch images\n";
 	}
 
+	namedWindow("Stitched Image", WINDOW_AUTOSIZE);
+	imshow("Stitched Image", result);
 
-	imwrite("panorama.jpg", result);
-	namedWindow("stitched_image", WINDOW_AUTOSIZE);
-	imshow("stitched_image", result);
-
-	waitKey(0);
+	std::cout << "LGS::stitching have been executed !\n";
 }
