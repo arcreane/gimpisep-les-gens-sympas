@@ -19,7 +19,8 @@ class LGS
 			cv::waitKey(0);
 		};
 
-		void dilate();
 		void resize();
 		void brightness(int val);
+		void dilateErode(int dilation_elem, int dilation_size, int dilatOrErod);
+		void CannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
 };
