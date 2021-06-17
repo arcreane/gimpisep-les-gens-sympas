@@ -22,4 +22,5 @@ class LGS
 		void dilate();
 		void resize();
 		void brightness(int val);
+		void faceDetection(double scale);
 };
