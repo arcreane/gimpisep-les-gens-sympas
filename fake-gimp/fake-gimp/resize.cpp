@@ -3,10 +3,10 @@
 void LGS::resize()
 {
 
-	Mat img_Resize;
+	Mat imgResize;
 
-	string X_input;
-	string Y_input;
+	string xInput;
+	string yInput;
 
 	//if fail to read the image
 	if (image.empty())
@@ -17,14 +17,14 @@ void LGS::resize()
 	bool done = true;
 	do {
 		cout << "enter the scale factor along the horizontal axis";
-		cin >> X_input;
+		cin >> xInput;
 
 		int count = 0;
 
-		for (int i = 0; i < X_input.length(); i++) {
+		for (int i = 0; i < xInput.length(); i++) {
 			int count = 0;
-			if (isdigit(X_input[i]) == 0) {
-				if (ispunct(X_input[i]) != 0) {
+			if (isdigit(xInput[i]) == 0) {
+				if (ispunct(xInput[i]) != 0) {
 					count++;
 					count > 1 ? done = false : done = true;
 				}
@@ -38,14 +38,14 @@ void LGS::resize()
 	done = true;
 	do {
 		cout << "enter the scale factor along the vertical axis";
-		cin >> Y_input;
+		cin >> yInput;
 
 		int count = 0;
 
-		for (int i = 0; i < Y_input.length(); i++) {
+		for (int i = 0; i < yInput.length(); i++) {
 			int count = 0;
-			if (isdigit(Y_input[i]) == 0) {
-				if (ispunct(Y_input[i]) != 0) {
+			if (isdigit(yInput[i]) == 0) {
+				if (ispunct(yInput[i]) != 0) {
 					count++;
 					count > 1 ? done = false : done = true;
 				}
@@ -56,8 +56,8 @@ void LGS::resize()
 		}
 	} while (done == false);
 
-	double retVal = stod(X_input.c_str());
-	double retVal2 = stod(Y_input.c_str());
+	double retVal = stod(xInput.c_str());
+	double retVal2 = stod(yInput.c_str());
 
 	cv::resize(image, image, cv::Size(), retVal, retVal2);
 
