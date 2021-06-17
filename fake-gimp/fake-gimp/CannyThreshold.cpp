@@ -1,17 +1,17 @@
 #include "header.h"
 
-void LGS::cannyThreshold(int lowThreshold, int maxLowThreshold, int kernelSize)
+void LGS::CannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size)
 {
-	Mat srcGray, detectedEdges, cannyDst;
-	cvtColor(image, srcGray, COLOR_BGR2GRAY);
+	Mat src_gray, detected_edges, canny_dst;
+	cvtColor(image, src_gray, COLOR_BGR2GRAY);
 
-	blur(srcGray, detectedEdges, Size(3, 3));
-	Canny(detectedEdges, detectedEdges, lowThreshold, maxLowThreshold, kernelSize);
+	blur(src_gray, detected_edges, Size(3, 3));
+	Canny(detected_edges, detected_edges, lowThreshold, max_lowThreshold, kernel_size);
 
-	cannyDst = Scalar::all(0);
+	canny_dst = Scalar::all(0);
 
-	image.copyTo(cannyDst, detectedEdges);
-	image = cannyDst;
+	image.copyTo(canny_dst, detected_edges);
+	image = canny_dst;
 
 	std::cout << "LGS::CannyThreshold have been executed !\n";
 }

@@ -22,6 +22,5 @@ class LGS
 		void resize();
 		void brightness(int val);
 		void dilateErode(int dilation_elem, int dilation_size, int dilatOrErod);
-		void cannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
-		void faceDetection();
+		void CannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
 };
