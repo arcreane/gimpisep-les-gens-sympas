@@ -11,7 +11,19 @@ class LGS
 
         cv::Mat image;
 
-		int getImageFromPath(const string& path) {
+        int openApplication() {
+            cout << "'Les Gens Sympas' welcome you to their GIMP-like application! " << endl;
+            if (getImageFromPath() == -1) {
+                openApplication();
+            }
+            return 0;
+        };
+
+		int getImageFromPath() {
+            std::string path;
+            std::cout << "Please, copy the exact path of the image file that you want to modify: " << std::endl;
+            std::cin >> path;
+
             // Read the image file
             Mat source(imread("../ImagesTest/" + path, IMREAD_COLOR));
             // Check for failure
@@ -43,6 +55,8 @@ class LGS
             cout << "Enter '5' if you want to cannyThreshold your image. " << endl;
             cout << "Enter '6' if you want to use the face detection function on your image. " << endl;
             cout << "Enter '7' if you want to use the stitching function. " << endl;
+
+            cout << "\nEnter '98' if you want to change of image. " << endl;
             cout << "Enter '99' if you want to save your modified image. " << endl;
             cout << "Enter '100' if you want to see what your current modified image looks like. " << endl;
             cout << "Enter '101' if you want to quit. " << endl;
@@ -87,6 +101,9 @@ class LGS
                     break;
                 case 7:
                     goToFunction(stitching());
+                    break;
+                case 98:
+                    goToFunction(getImageFromPath());
                     break;
                 case 99:
                     goToFunction(saveNewImage());
