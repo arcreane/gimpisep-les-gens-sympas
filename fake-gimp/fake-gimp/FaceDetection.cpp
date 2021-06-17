@@ -20,4 +20,6 @@ void LGS::faceDetection()
         // Wee add a rectangle around the face
         rectangle(image, cv::Point(cvRound(r.x), cvRound(r.y)), cv::Point(cvRound(r.x + r.width - 1), cvRound(r.y + r.height - 1)), color, 3, 8, 0);
     }
+
+    std::cout << "LGS::faceDetection have been executed !\n";
 }

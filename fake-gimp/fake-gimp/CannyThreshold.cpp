@@ -13,7 +13,7 @@ void LGS::cannyThreshold(int lowThreshold, int maxLowThreshold, int kernelSize)
 	image.copyTo(cannyDst, detectedEdges);
 	image = cannyDst;
 
-	std::cout << "LGS::CannyThreshold have been executed !\n";
+	std::cout << "LGS::cannyThreshold have been executed !\n";
 }
 
 

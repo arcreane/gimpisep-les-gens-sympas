@@ -33,6 +33,9 @@
     <ClCompile Include="dilateErose.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="stitching.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -41,6 +44,27 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="HappyFish.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="S5.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="EnseignantsIsep.png">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="FaceDetectionTest.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="S1.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="S2.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="S3.jpg">
+      <Filter>Fichiers de ressources</Filter>
+    </Image>
+    <Image Include="S4.jpg">
       <Filter>Fichiers de ressources</Filter>
     </Image>
   </ItemGroup>

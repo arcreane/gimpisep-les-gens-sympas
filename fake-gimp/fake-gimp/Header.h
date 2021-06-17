@@ -1,36 +1,28 @@
 #pragma once
 #include <iostream>
 #include <opencv2/opencv.hpp>
-
 using namespace std;
 using namespace cv;
 
 class LGS
 {
-public:
-	cv::Mat image;
-	vector<Mat> imageArray;
+	public:
+		cv::Mat image;
 
+		void getImageFromPath(string path) {
+			cv::Mat img = cv::imread(path);
+			image = img;
+		};
 
-	void getImageFromPath(string path) {
-		cv::Mat img = cv::imread(path);
-		image = img;
-	};
+		void showImage() {
+			cv::imshow("IMAGE", image);
+			cv::waitKey(0);
+		};
 
-	void showImage() {
-		cv::imshow("IMAGE", image);
-		cv::waitKey(0);
-	};
-
-	void addToImageArray(string path) {
-		cv::Mat img = cv::imread(path);
-		imageArray.push_back(img);
-	}
-
-	void resize();
-	void brightness(int val);
-	void dilateErode(int dilation_elem, int dilation_size, int dilatOrErod);
-	void CannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
-	void faceDetection();
-	void Stitching();
+		void resize();
+		void brightness(int val);
+		void dilateErode(int dilation_elem, int dilation_size, int dilatOrErod);
+		void cannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
+		void faceDetection();
+		void stitching();
 };

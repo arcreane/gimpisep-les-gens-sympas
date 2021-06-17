@@ -12,4 +12,6 @@ void LGS::brightness(int val)
 
     // Modify the brightness of the image
     image.convertTo(image, -1, 1, val);
+
+    std::cout << "LGS::brightness have been executed !\n";
 }

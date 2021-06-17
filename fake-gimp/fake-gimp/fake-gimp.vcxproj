@@ -124,7 +124,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Program Files\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world452d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -145,13 +145,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="brightness.cpp" />
-    <ClCompile Include="CannyThreshold.cpp" />
+    <ClCompile Include="cannyThreshold.cpp" />
+    <ClCompile Include="faceDetection.cpp" />
     <ClCompile Include="fake-gimp.cpp" />
-    <ClCompile Include="dilate_erose.cpp" />
+    <ClCompile Include="dilateErose.cpp" />
     <ClCompile Include="resize.cpp" />
+    <ClCompile Include="stitching.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="EnseignantsIsep.png" />
+    <Image Include="FaceDetectionTest.jpg" />
     <Image Include="HappyFish.jpg" />
+    <Image Include="S1.jpg" />
+    <Image Include="S2.jpg" />
+    <Image Include="S3.jpg" />
+    <Image Include="S4.jpg" />
+    <Image Include="S5.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
