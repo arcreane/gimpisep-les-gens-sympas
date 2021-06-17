@@ -18,19 +18,19 @@
     <ClCompile Include="fake-gimp.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="dilate_erose.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="resize.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="brightness.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="CannyThreshold.cpp">
+    <ClCompile Include="faceDetection.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="FaceDetection.cpp">
+    <ClCompile Include="cannyThreshold.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dilateErose.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

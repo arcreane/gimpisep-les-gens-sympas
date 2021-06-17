@@ -145,10 +145,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="brightness.cpp" />
-    <ClCompile Include="CannyThreshold.cpp" />
-    <ClCompile Include="FaceDetection.cpp" />
+    <ClCompile Include="cannyThreshold.cpp" />
+    <ClCompile Include="faceDetection.cpp" />
     <ClCompile Include="fake-gimp.cpp" />
-    <ClCompile Include="dilate_erose.cpp" />
+    <ClCompile Include="dilateErose.cpp" />
     <ClCompile Include="resize.cpp" />
   </ItemGroup>
   <ItemGroup>
