@@ -2,6 +2,7 @@
 
 void LGS::brightness(int val)
 {
+    // Check for valid brightness value
     if (val > 100) {
         val = 100;
     }
@@ -9,5 +10,6 @@ void LGS::brightness(int val)
         val = -100;
     }
 
+    // Modify the brightness of the image
     image.convertTo(image, -1, 1, val);
 }
