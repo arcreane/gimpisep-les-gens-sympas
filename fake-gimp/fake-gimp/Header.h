@@ -31,5 +31,6 @@ public:
 	void brightness(int val);
 	void dilateErode(int dilation_elem, int dilation_size, int dilatOrErod);
 	void CannyThreshold(int lowThreshold, int max_lowThreshold, int kernel_size);
+	void faceDetection();
 	void Stitching();
 };

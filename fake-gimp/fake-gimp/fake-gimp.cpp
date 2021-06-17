@@ -17,7 +17,10 @@ int main() {
     //lgsObject.dilateErode(1,5,1); // dilation_elem (entre 0 et 2), dilation_size , dilatOrErod : 0 pour dilatation/ 1 pour erode
 	lgsObject.Stitching();
 
-    lgsObject.CannyThreshold(10, 100, 5); //owThreshold, max_lowThreshold, kernel_size (toujurs impair)
-    lgsObject.showImage();
+    //lgsObject.CannyThreshold(10, 100, 5); //owThreshold, max_lowThreshold, kernel_size (toujurs impair)
+	lgsObject.getImageFromPath("EnseignantsIsep.png");
+	lgsObject.faceDetection();
+	
+	lgsObject.showImage();
     return 0;
 }
