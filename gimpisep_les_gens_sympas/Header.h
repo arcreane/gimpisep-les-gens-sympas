@@ -37,6 +37,7 @@ class LGS
 		};
 
 		int showImage() {
+		    destroyAllWindows();
             namedWindow("Your current image", WINDOW_AUTOSIZE);
             cout << "Click on the displayed image and press anything on the keybord to continue..." << endl;
 			cv::imshow("Your current image", image);
@@ -128,7 +129,7 @@ class LGS
             cout << "You are saving your modified image..." << endl;
             cv::Mat newImage = image;
             imwrite("../newData/" + nameFile + ".jpg", newImage);
-            cout << "You have saved your modified image successfully! You will see it when you will have quit the app." << endl;
+            cout << "You have saved your modified image successfully! " << endl;
             return 0;
         }
 

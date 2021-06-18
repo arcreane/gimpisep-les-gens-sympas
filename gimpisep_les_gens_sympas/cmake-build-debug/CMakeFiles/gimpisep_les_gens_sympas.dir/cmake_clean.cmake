@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o"
-  "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.o"
+  "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.o"
+  "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/resize.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.o"
   "CMakeFiles/gimpisep_les_gens_sympas.dir/main.cpp.o"

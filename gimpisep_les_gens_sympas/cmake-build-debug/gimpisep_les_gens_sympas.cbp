@@ -82,19 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/CannyThreshold.cpp">
-			<Option target="gimpisep_les_gens_sympas"/>
-		</Unit>
-		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/FaceDetection.cpp">
-			<Option target="gimpisep_les_gens_sympas"/>
-		</Unit>
 		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/brightness.cpp">
+			<Option target="gimpisep_les_gens_sympas"/>
+		</Unit>
+		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/cannyThreshold.cpp">
 			<Option target="gimpisep_les_gens_sympas"/>
 		</Unit>
 		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/contrast.cpp">
 			<Option target="gimpisep_les_gens_sympas"/>
 		</Unit>
 		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/dilateErode.cpp">
+			<Option target="gimpisep_les_gens_sympas"/>
+		</Unit>
+		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/faceDetection.cpp">
 			<Option target="gimpisep_les_gens_sympas"/>
 		</Unit>
 		<Unit filename="/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/resize.cpp">

@@ -102,18 +102,18 @@ CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/brightness.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.s
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o: ../Functions/CannyThreshold.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isma/CLionProjects/gimpisep_les_gens_sympas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o -c /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/CannyThreshold.cpp
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o: ../Functions/cannyThreshold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isma/CLionProjects/gimpisep_les_gens_sympas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o -c /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/cannyThreshold.cpp
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/CannyThreshold.cpp > CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.i
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/cannyThreshold.cpp > CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.i
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/CannyThreshold.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.s
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/cannyThreshold.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.s
 
 CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
 CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.o: ../Functions/dilateErode.cpp
@@ -154,18 +154,18 @@ CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/contrast.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.s
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o: ../Functions/FaceDetection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isma/CLionProjects/gimpisep_les_gens_sympas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o -c /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/FaceDetection.cpp
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o: ../Functions/faceDetection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/isma/CLionProjects/gimpisep_les_gens_sympas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o -c /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/faceDetection.cpp
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/FaceDetection.cpp > CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.i
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/faceDetection.cpp > CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.i
 
-CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/FaceDetection.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.s
+CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/faceDetection.cpp -o CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.s
 
 CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.o: CMakeFiles/gimpisep_les_gens_sympas.dir/flags.make
 CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.o: ../Functions/stitching.cpp
@@ -184,11 +184,11 @@ CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.s: cmake_force
 gimpisep_les_gens_sympas_OBJECTS = \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/main.cpp.o" \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.o" \
-"CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o" \
+"CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o" \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.o" \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/resize.cpp.o" \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.o" \
-"CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o" \
+"CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o" \
 "CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.o"
 
 # External object files for target gimpisep_les_gens_sympas
@@ -196,11 +196,11 @@ gimpisep_les_gens_sympas_EXTERNAL_OBJECTS =
 
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/main.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.o
-gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o
+gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/resize.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/contrast.cpp.o
-gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o
+gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/stitching.cpp.o
 gimpisep_les_gens_sympas: CMakeFiles/gimpisep_les_gens_sympas.dir/build.make
 gimpisep_les_gens_sympas: /usr/local/lib/libopencv_gapi.4.5.2.dylib

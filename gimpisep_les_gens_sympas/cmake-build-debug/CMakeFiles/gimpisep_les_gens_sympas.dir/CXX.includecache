@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/CannyThreshold.cpp
-../Header.h
-/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
-
-/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/FaceDetection.cpp
-../Header.h
-/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
-
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/brightness.cpp
+../Header.h
+/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
+
+/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/cannyThreshold.cpp
 ../Header.h
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
 
@@ -23,6 +19,10 @@
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
 
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/dilateErode.cpp
+../Header.h
+/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
+
+/Users/isma/CLionProjects/gimpisep_les_gens_sympas/Functions/faceDetection.cpp
 ../Header.h
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
 
@@ -45,8 +45,6 @@ cctype
 -
 
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/main.cpp
-iostream
--
 Header.h
 /Users/isma/CLionProjects/gimpisep_les_gens_sympas/Header.h
 

@@ -59,8 +59,8 @@ int LGS::dilateErode()
 		Size(2 * dilationSize + 1, 2 * dilationSize + 1),
 		Point(dilationSize, dilationSize));
 
-	if(stoi(dilatOrErod) == 0) dilate(image, image, kernel);
-	else if(stoi(dilatOrErod) == 1) erode(image, image, kernel);
+	if(stoi(dilatOrErod) == 1) dilate(image, image, kernel);
+	else if(stoi(dilatOrErod) == 2) erode(image, image, kernel);
 
 	std::cout << "LGS::dilate has been executed !\n";
 	return 0;

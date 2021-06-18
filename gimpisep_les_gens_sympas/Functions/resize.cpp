@@ -2,8 +2,6 @@
 
 int LGS::resize()
 {
-	Mat img_Resize;
-
 	string X_input;
 	string Y_input;
 

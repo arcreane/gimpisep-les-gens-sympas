@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Header.h"
 
 int main() {
@@ -7,10 +6,6 @@ int main() {
     LGS lgsObject;
 
     lgsObject.openApplication();
-
-    //lgsObject.dilateErode(1,5,1); // dilation_elem (entre 0 et 2), dilation_size , dilatOrErod : 0 pour dilatation/ 1 pour erode
-    //lgsObject.CannyThreshold(10, 100, 5); //owThreshold, max_lowThreshold, kernel_size (toujurs impair)
-    //lgsObject.showImage();
 
     return 0;
 }

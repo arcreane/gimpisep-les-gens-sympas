@@ -142,60 +142,6 @@ gimpisep_les_gens_sympas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/build
 .PHONY : gimpisep_les_gens_sympas/fast
 
-Functions/CannyThreshold.o: Functions/CannyThreshold.cpp.o
-
-.PHONY : Functions/CannyThreshold.o
-
-# target to build an object file
-Functions/CannyThreshold.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.o
-.PHONY : Functions/CannyThreshold.cpp.o
-
-Functions/CannyThreshold.i: Functions/CannyThreshold.cpp.i
-
-.PHONY : Functions/CannyThreshold.i
-
-# target to preprocess a source file
-Functions/CannyThreshold.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.i
-.PHONY : Functions/CannyThreshold.cpp.i
-
-Functions/CannyThreshold.s: Functions/CannyThreshold.cpp.s
-
-.PHONY : Functions/CannyThreshold.s
-
-# target to generate assembly for a file
-Functions/CannyThreshold.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/CannyThreshold.cpp.s
-.PHONY : Functions/CannyThreshold.cpp.s
-
-Functions/FaceDetection.o: Functions/FaceDetection.cpp.o
-
-.PHONY : Functions/FaceDetection.o
-
-# target to build an object file
-Functions/FaceDetection.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.o
-.PHONY : Functions/FaceDetection.cpp.o
-
-Functions/FaceDetection.i: Functions/FaceDetection.cpp.i
-
-.PHONY : Functions/FaceDetection.i
-
-# target to preprocess a source file
-Functions/FaceDetection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.i
-.PHONY : Functions/FaceDetection.cpp.i
-
-Functions/FaceDetection.s: Functions/FaceDetection.cpp.s
-
-.PHONY : Functions/FaceDetection.s
-
-# target to generate assembly for a file
-Functions/FaceDetection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/FaceDetection.cpp.s
-.PHONY : Functions/FaceDetection.cpp.s
-
 Functions/brightness.o: Functions/brightness.cpp.o
 
 .PHONY : Functions/brightness.o
@@ -222,6 +168,33 @@ Functions/brightness.s: Functions/brightness.cpp.s
 Functions/brightness.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/brightness.cpp.s
 .PHONY : Functions/brightness.cpp.s
+
+Functions/cannyThreshold.o: Functions/cannyThreshold.cpp.o
+
+.PHONY : Functions/cannyThreshold.o
+
+# target to build an object file
+Functions/cannyThreshold.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.o
+.PHONY : Functions/cannyThreshold.cpp.o
+
+Functions/cannyThreshold.i: Functions/cannyThreshold.cpp.i
+
+.PHONY : Functions/cannyThreshold.i
+
+# target to preprocess a source file
+Functions/cannyThreshold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.i
+.PHONY : Functions/cannyThreshold.cpp.i
+
+Functions/cannyThreshold.s: Functions/cannyThreshold.cpp.s
+
+.PHONY : Functions/cannyThreshold.s
+
+# target to generate assembly for a file
+Functions/cannyThreshold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/cannyThreshold.cpp.s
+.PHONY : Functions/cannyThreshold.cpp.s
 
 Functions/contrast.o: Functions/contrast.cpp.o
 
@@ -276,6 +249,33 @@ Functions/dilateErode.s: Functions/dilateErode.cpp.s
 Functions/dilateErode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/dilateErode.cpp.s
 .PHONY : Functions/dilateErode.cpp.s
+
+Functions/faceDetection.o: Functions/faceDetection.cpp.o
+
+.PHONY : Functions/faceDetection.o
+
+# target to build an object file
+Functions/faceDetection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.o
+.PHONY : Functions/faceDetection.cpp.o
+
+Functions/faceDetection.i: Functions/faceDetection.cpp.i
+
+.PHONY : Functions/faceDetection.i
+
+# target to preprocess a source file
+Functions/faceDetection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.i
+.PHONY : Functions/faceDetection.cpp.i
+
+Functions/faceDetection.s: Functions/faceDetection.cpp.s
+
+.PHONY : Functions/faceDetection.s
+
+# target to generate assembly for a file
+Functions/faceDetection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gimpisep_les_gens_sympas.dir/build.make CMakeFiles/gimpisep_les_gens_sympas.dir/Functions/faceDetection.cpp.s
+.PHONY : Functions/faceDetection.cpp.s
 
 Functions/resize.o: Functions/resize.cpp.o
 
@@ -367,21 +367,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gimpisep_les_gens_sympas"
-	@echo "... Functions/CannyThreshold.o"
-	@echo "... Functions/CannyThreshold.i"
-	@echo "... Functions/CannyThreshold.s"
-	@echo "... Functions/FaceDetection.o"
-	@echo "... Functions/FaceDetection.i"
-	@echo "... Functions/FaceDetection.s"
 	@echo "... Functions/brightness.o"
 	@echo "... Functions/brightness.i"
 	@echo "... Functions/brightness.s"
+	@echo "... Functions/cannyThreshold.o"
+	@echo "... Functions/cannyThreshold.i"
+	@echo "... Functions/cannyThreshold.s"
 	@echo "... Functions/contrast.o"
 	@echo "... Functions/contrast.i"
 	@echo "... Functions/contrast.s"
 	@echo "... Functions/dilateErode.o"
 	@echo "... Functions/dilateErode.i"
 	@echo "... Functions/dilateErode.s"
+	@echo "... Functions/faceDetection.o"
+	@echo "... Functions/faceDetection.i"
+	@echo "... Functions/faceDetection.s"
 	@echo "... Functions/resize.o"
 	@echo "... Functions/resize.i"
 	@echo "... Functions/resize.s"
